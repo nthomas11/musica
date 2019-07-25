@@ -12,7 +12,7 @@ shinyServer(function(input, output,session){
 
 	
    #Setting maximum file size for uploading (1000 MB)
-   options(shiny.maxRequestSize=10000*1024^2)
+   options(shiny.maxRequestSize=8000*1024^2)
    options(shiny.sanitize.errors = TRUE)
    
    #Resolution of the tiff images
